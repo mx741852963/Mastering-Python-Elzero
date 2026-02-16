@@ -12,4 +12,4 @@ B\
 C")
 print(a + " " + b)
 print(a + "\n" + b)
-print("hello" + 1)  # error
+# print("hello" + 1)  # error

@@ -9,6 +9,7 @@ user = {
 }
 print(user)
 print(user.setdefault("age", 36))
+print(user.setdefault("age", 40))
 print(user)
 print("=" * 40)
 

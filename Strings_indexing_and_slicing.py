@@ -7,7 +7,7 @@
 # 5 Use Square Brackets To Access Element
 # 6 Enable Accessing Parts Of Strings,Tuples,Lists
 # --------------------------------------
-from Strings import myStringTwo
+
 
 # Indexing (Access Single Item)
 myString = "I love python"
