@@ -3,8 +3,6 @@
 # ------------------------------------
 # While condition_is_true
 # code will Run Until Condition Become False
-import unittest
-
 myF = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
 # print(myF[0])
 # print(myF[1])
