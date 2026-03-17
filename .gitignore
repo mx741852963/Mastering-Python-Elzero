@@ -1,0 +1,15 @@
+# IDE Settings
+.idea/
+
+# Personal Test Files
+ahmad.txt
+ahmad.py
+fun.txt
+test/
+test*.py
+# Media & Large Files
+image.jpg
+
+# Python cache
+__pycache__/
+*.pyc
