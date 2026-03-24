@@ -1,33 +1,39 @@
 # Mastering Python for Machine Learning 🚀
 
-This repository tracks my journey from zero to a **Machine Learning Engineer**, following a structured 12-20 month
-roadmap and leveraging the **Elzero Web School** Python course for a solid foundation.
+This repository tracks my journey from zero to a **Machine Learning Engineer**, following Mosh Hamedani's roadmap and
+Elzero Web School's technical depth.
 
 ## 📌 Project Overview
 
-- **Goal:** Master Python, Data Handling, and ML Model Deployment.
-- **Current Phase:** Python Fundamentals (1-2 Months).
-- **Primary Source:** Elzero Web School (Mastering Python Series).
+- **Goal:** Comprehensive mastery of Python for ML & Data Science.
+- **Current Status:** Phase 1 (Python Core & Advanced) **100% Completed** ✅.
+- **Next Target:** Data Handling & Numerical Computing with **NumPy**.
 
-## 🛠️ Skills Covered So Far
+## 🛠️ Technical Skills Acquired
 
-- [x] **Python Basics:** Variables, Data Types, and Escape Sequences.
-- [x] **Strings:** Concatenation and Formatting.
-- [x] **Code Structure:** Comments and Indentation logic.
-- [ ] **Advanced Logic:** Loops, Functions, and OOP (In Progress).
+### 1. Advanced Python Logic
+
+- **Memory Management:** References, Object Interning, and Shallow vs Deep Copy.
+- **Data Structures:** Mastered Lists, Dicts, and high-performance **Queues/Stacks** using `collections.deque`.
+- **Advanced Tools:** Decorators, Generators, **Logging**, **Unit Testing**, and **JSON** handling.
+
+### 2. Engineering & Architecture (OOP)
+
+- Implemented **Inheritance**, **Encapsulation**, and **Polymorphism**.
+- Integrated Python with **SQLite** for persistent data storage.
 
 ## 📂 Repository Structure
 
-- `Basics/`: Core concepts like variables and comments.
-- `Strings/`: String manipulation and escape characters.
-- `Data_Types/`: Understanding Python objects and types.
+- `OOP/`: Projects involving class structures and system design.
+- `Databases/`: SQLite Skill App and Database logic.
+- `Advanced/`: Logic for Logging, Testing, JSON, and Timeit.
 
 ## 🗺️ Roadmap Reference
 
-I am following "The Complete Machine Learning Engineer Roadmap" by Mosh Hamedani.
+Following "The Complete Machine Learning Engineer Roadmap".
 
-- **Estimated Completion:** ~18 Months.
 - **Target Roles:** ML Engineer / MLOps Engineer.
+- **Focus:** Performance, Scalability, and Clean Code.
 
 ---
-*“Learning to code is a journey. Be patient and stay persistent.”*
+*“Engineer, not just a Coder. Architecture matters, Syntax is secondary.”*
