@@ -1,0 +1,41 @@
+# NumPy – Create Arrays
+import numpy as np
+
+# print(dir(np))
+my_list = [1, 2, 3, 4, 5, 6]
+my_array = np.array(my_list)
+print(my_list)
+print(my_array)
+print("=" * 50)
+print(type(my_list))
+print(type(my_array))
+print("=" * 50)
+# Accessing Elements
+print(my_list[0])
+print(my_array[0])
+print("=" * 50)
+a = np.array(10)
+b = np.array([10, 20])
+c = np.array([[10, 20], [10, 20]])
+d = np.array([[[1, 2], [2, 1]], [[3, 4], [4, 3]], [[5, 6], [6, 5]]])
+# print(d[0])
+# print(d[1])
+# print(d[2])
+# print(d[2][0])
+print(d[2][1][1])
+print(d[2, 1, 1])
+print("=" * 50)
+# Number Of Dimensions
+print(d.ndim)
+print(d.dtype)
+print(d.size)
+print(d.itemsize)
+print(d.shape)
+print("=" * 50)
+# Custom Dimensions
+my_custom_array = np.array([1, 2, 3], ndmin=3)
+print(my_custom_array.ndim)
+print(my_custom_array)
+print(my_custom_array[0, 0, 0])
+print(my_custom_array[0, 0, 1])
+print(my_custom_array[0, 0, 2])
