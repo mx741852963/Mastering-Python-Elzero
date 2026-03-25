@@ -1,7 +1,11 @@
 # IDE Settings
 .idea/
-
+# venv
+venv/
+.env
+env/
 # Personal Test Files
+.ipynb_checkpoints/
 ahmad.txt
 ahmad.py
 fun.txt
@@ -13,3 +17,4 @@ image.jpg
 # Python cache
 __pycache__/
 *.pyc
+.DS_Store
