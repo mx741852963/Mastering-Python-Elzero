@@ -29,7 +29,7 @@ people = {
 df = pd.DataFrame(people)
 # print(df.columns) # View The Columns
 # change The Columns Indexing And Name Just The index of column not the content
-df_1 = df.columns = ['Last name', 'First name', 'Age', 'Gender']
+df.columns = ['Last name', 'First name', 'Age', 'Gender']
 # Here you can access column name and do everything like make the name lower
 df.columns = [x.lower() for x in df.columns]
 df.columns = df.columns.str.replace(' ', "_")  # Here replace the " " by "_"
