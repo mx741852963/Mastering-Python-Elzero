@@ -1,9 +1,13 @@
 # IDE Settings
 .idea/
-# venv
+
+# Virtual Environments (Pipenv & others)
+.venv/
 venv/
-.env
 env/
+.env
+.pipenv/
+
 # Personal Test Files
 .ipynb_checkpoints/
 ahmad.txt
@@ -11,10 +15,28 @@ ahmad.py
 fun.txt
 test/
 test*.py
+
 # Media & Large Files
-image.jpg
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Data Files (JSON, Excel, CSV)
+*.json
+*.xlsx
+*.xls
+*.csv
+
+# Databases
+*.db
+*.sqlite3
+*.sqlite
+*.sql
 
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .DS_Store
