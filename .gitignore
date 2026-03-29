@@ -40,3 +40,6 @@ __pycache__/
 *.pyo
 *.pyd
 .DS_Store
+# Mac system files
+__MACOSX/
+.DS_Store
