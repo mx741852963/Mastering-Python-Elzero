@@ -43,3 +43,7 @@ __pycache__/
 # Mac system files
 __MACOSX/
 .DS_Store
+pandas/data/
+pandas/data_2/
+**/data/
+**/data_2/
